@@ -1,0 +1,92 @@
+/* .block {
+  background-color: red;
+}
+.block:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+/* li:first-child {
+  background-color: red;
+}
+li:last-child {
+  background-color: green;
+}
+li:nth-child(3) {
+  background-color: blue;
+} */
+/* li:nth-child(odd) {
+  background-color: blue;
+}
+li:nth-last-child(even) {
+  background-color: aqua;
+}
+a:visited {
+  color: aqua;
+/* } */
+
+/* #block::before {
+  content: "BEFORE";
+  color: brown;
+}
+
+#block::after {
+  content: "AFTER";
+  color: blue;
+} */
+/* .block {
+  width: 400px;
+  height: 200px;
+  background-color: red;
+  position: relative;
+  padding-left: 5px;
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.block::before {
+  content: "";
+  width: 5px;
+  height: 100%;
+  background-color: aqua;
+  position: absolute;
+  left: 0;
+  border-radius: 5px;
+} */
+body {
+  height: ;
+}
+
+.parent {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: relative;
+}
+.child {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+
+  position: absolute;
+  /* position: relative; */
+  /* right: 0; */
+}
+.grandson {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  margin: 0 auto;
+  font-size: 10px;
+  text-align: center;
+  /* display: flex; */
+  /* align-items: center;
+justify-content: center; */
+  /* position: fixed;
+
+
+  right: 0;
+*/
+}
+span {
+  margin: auto 0;
+}
